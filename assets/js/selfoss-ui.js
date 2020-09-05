@@ -1,3 +1,4 @@
+import React from 'jsx-dom';
 import locales from './locales';
 import selfoss from './selfoss-base';
 import { initIcons } from './icons';

@@ -1,3 +1,4 @@
+import React from 'jsx-dom';
 import selfoss from './selfoss-base';
 import * as ajax from './helpers/ajax';
 

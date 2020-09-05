@@ -1,3 +1,5 @@
+import React from 'jsx-dom';
+
 export default ({tags}) =>
     [
         <li><a class="active nav-tags-all" href="#">{selfoss.ui._('alltags')}</a></li>
