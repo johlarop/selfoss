@@ -614,9 +614,10 @@ selfoss.ui = {
             {label}
         </button>);
 
-        messageContainer.html([
-            message
-        ].concat(buttons));
+        messageContainer.html(<React.Fragment>
+            {message}
+            {buttons}
+        </React.Fragment>);
 
         if (isError) {
             messageContainer.addClass('error');
